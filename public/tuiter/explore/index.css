@@ -46,8 +46,8 @@
 }
 
 .wd-grid-col-8-page {
-    width:8%;
-    height: 25px;
+    width:9%;
+    height: 38px;
     float:left;
 }
 
@@ -56,10 +56,11 @@
     padding-left: 30px;
 }
 
-.wd-color-darkgray {
+.wd-backgroundcolor-darkgray {
     background-color: darkgray;
-    color: white;
 }
+
+
 
 .wd-grid-col-left-16px {
     width: 16px;
@@ -116,7 +117,7 @@
 }
 
 .wd-grid-col-sixth-page {
-   width: 12%;
+   width: 12.5%;
    float: left;
    font-size: 15px;
    color: rgb(110, 118, 125);
