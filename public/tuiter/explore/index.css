@@ -1,6 +1,4 @@
-.wd-background-black {
-    background-color:black;
-}
+
 
 .wd-padded-left {
     padding-left: 16px;
@@ -168,13 +166,6 @@ position:relative;
 }
 
 
-.wd-color-gray {
-  color: rgb(110, 118, 125);
-}
-
-.wd-color-white {
-  color:white;
-}
 
 .wd-padded-right {
     padding-right: 16px;

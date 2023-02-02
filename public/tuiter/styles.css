@@ -1,0 +1,89 @@
+.wd-background-black {
+    background-color:black;
+}
+
+.wd-left-right-border {
+    margin-left: 16px;
+    border-left-style:solid;
+    border-left-color:rgb(47, 51, 54);
+    border-width: 1px;
+    margin-right:16px;
+    border-right-style:solid;
+    border-right-color:rgb(47, 51, 54);
+}
+
+
+
+
+
+.wd-color-gray {
+  color: rgb(110, 118, 125);
+}
+
+.wd-color-lightgray {
+  color: light gray;
+}
+
+.wd-color-white {
+  color:white;
+}
+
+.wd-color-red {
+  color:red;
+}
+
+.wd-font-20 {
+font:20px;
+}
+
+.wd-font-13 {
+font:13px;
+}
+
+.wd-font-15 {
+font:15px;
+}
+
+.wd-width-506 {
+width:506px;
+}
+
+.wd-width-478 {
+width:478px;
+}
+
+.wd-display-inline {
+display:inline;
+}
+
+.wd-padded-all-12 {
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+.wd-bottom-border {
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color:rgb(47, 51, 54);
+}
+
+.wd-right-border {
+    border-right-width:1px;
+    border-right-color: rgb(47, 51, 54);
+    border-right-style:solid;
+}
+
+.wd-color-blue {
+color:blue;
+}
+
+.wd-left-border {
+    border-left-width:1px;
+    border-left-color:rgb(47, 51, 54);
+    border-left-style:solid;
+
+}
+

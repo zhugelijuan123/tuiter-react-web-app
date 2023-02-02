@@ -1,0 +1,110 @@
+.wd-top-margin {
+    margin-top: 12px;
+}
+
+.wd-left-margin {
+    margin-left: 16px;
+}
+
+.wd-left-margin-76 {
+margin-left: 76px;
+}
+.wd-left-margin-28 {
+margin-left: 70px;
+
+}
+
+.wd-position_relative-12 {
+    position: relative;
+    left:12px;
+    bottom:36px;
+}
+
+.wd-position_relative-12-right {
+    position: relative;
+    left:210px;
+    bottom:36px;
+}
+
+.wd-position_relative-12-right-new {
+    position: relative;
+    left:545px;
+    bottom:36px;
+}
+
+.wd-position_relative-76 {
+    position: relative;
+    left:76px;
+    bottom:36px;
+
+}
+
+.wd-position_relative-76-top {
+    position: relative;
+    left:76px;
+}
+
+
+.wd-border-circle {
+border-radius:50%;
+width:48px;
+height:48px;
+}
+
+.wd-img-504by264 {
+width:504px;
+height:264px;
+}
+
+
+.rounded-corners-top {
+ border-top-left-radius: 40px;
+ border-top-right-radius: 40px;
+}
+
+.rounded-corners-bottom {
+ border-bottom-left-radius: 40px;
+ border-bottom-right-radius: 40px;
+}
+
+.wd-grid-col-left-12px {
+    width: 12px;
+    height:100%;
+    float: left;
+}
+
+.wd-grid-col-left-1per {
+    width: 60px;
+    height:100%;
+    float: left;
+}
+
+.wd-grid-row{
+clear:both;
+}
+
+.wd-icon-size {
+width:20px;
+height:20px;
+}
+
+a:link {
+text-decoration: none;
+decoration: none;
+}
+a:visited {
+ text-decoration: none;
+     decoration: none;
+  }
+a:hover {
+text-decoration: none;
+ decoration: none;
+}
+a:active {
+text-decoration: none;
+    decoration: none;
+}
+a{
+color:rgb(47, 51, 54)}
+
+
