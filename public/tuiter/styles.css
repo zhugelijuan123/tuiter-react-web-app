@@ -87,3 +87,10 @@ color:blue;
 
 }
 
+.wd-top-border {
+    border-top-width:1px;
+    border-top-color:rgb(47, 51, 54);
+    border-top-style:solid;
+
+}
+

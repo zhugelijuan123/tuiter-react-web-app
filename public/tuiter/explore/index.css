@@ -19,6 +19,7 @@
 
 .wd-border-bottom-solid-blue {
    border-bottom-style: solid;
+   border-bottom-width:1px;
    border-bottom-color:rgb(29, 161, 242);
 }
 
@@ -115,7 +116,7 @@
 }
 
 .wd-grid-col-sixth-page {
-   width: 12.5%;
+   width: 19.2%;
    float: left;
    font-size: 15px;
    color: rgb(110, 118, 125);
