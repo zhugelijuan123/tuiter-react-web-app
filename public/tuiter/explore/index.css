@@ -1,5 +1,58 @@
+.display-flex {
+display:flex;
+}
+
+.wd-text-decoration {
+text-decoration: none;
+}
+
+.wd-font-bold {
+font-weight:bold;
+}
+.wd-text-black{
+color:black;
+}
+.wd-search {
+width:750px;
+}
+.rounded-pill {
+    border-radius: 50%;
+}
+
+.wd-img-width {
+width:40px;
+}
+
+.wd-img-width-20p {
+width:15%;
+}
+
+.wd-img-width-full {
+width:100%;
+}
 
 
+.Icon-inside {
+position:relative;
+}
+.Icon-inside i {
+      position:absolute;
+      left:0;
+      top:0px;
+      padding:6px 6px;
+      color:black;
+     }
+.Icon-inside a {
+      position:absolute;
+      left:0;
+      top:90%;
+      padding:6px 6px;
+      font-size:30px;
+     }
+
+input::placeholder {
+  padding:20px 36px;
+}
 .wd-padded-left {
     padding-left: 16px;
 }
@@ -59,6 +112,10 @@
     background-color: darkgray;
 }
 
+.wd-color-darkgray {
+    color: rgb(47, 51, 54);
+}
+
 
 
 .wd-grid-col-left-16px {
@@ -106,6 +163,7 @@
    color: rgb(110, 118, 125);
 
 }
+
 
 .wd-grid-col-fifth-page {
    width: 12%;
