@@ -50,6 +50,9 @@ position:relative;
       font-size:30px;
      }
 
+.wd-height-30{
+height:30px;
+}
 input::placeholder {
   padding:20px 36px;
 }
