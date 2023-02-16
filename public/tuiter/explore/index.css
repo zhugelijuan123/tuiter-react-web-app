@@ -115,8 +115,18 @@ input::placeholder {
     background-color: darkgray;
 }
 
+.wd-backgroundcolor-black {
+    background-color: black;
+}
+
+
+
 .wd-color-darkgray {
     color: rgb(47, 51, 54);
+}
+
+.wd-color-white {
+    color: white;
 }
 
 
