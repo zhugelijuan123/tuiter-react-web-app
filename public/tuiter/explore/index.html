@@ -1,206 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link href="index.css"
-          rel="stylesheet"/>
-    <link href="./../styles.css"
-          rel="stylesheet"/>
-    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>
-    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>
+  <link href="index.css" rel="stylesheet"/>
+  <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+          integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+          crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <title>Explore screen</title>
 </head>
 <body>
 
-<div class="row mt-2 wd-backgroundcolor-black">
-    <div class=" col-1 col-md-1 col-lg-1 col-xl-2 col-xxl-2">
-        <div class = "border wd-height-30 row">
-            <i class = "text-white fab fa-twitter" aria-hidden="true"></i>
-        </div>
-        <div class = "border wd-height-30 row">
-            <i class = "text-white mt-1 col-1 fa fa-home"></i>
-            <text class="d-none d-xl-block col-1 text-white">Home</text>
-        </div>
-        <div class = "border row wd-height-30 bg-primary text-white">
-            <i class = "text-white mt-1 col-1 fa fa-hashtag"></i>
-            <text class="d-none d-xl-block col-1 text-white">Explore</text>
-        </div>
-        <div class = "border wd-height-30 row">
-            <i class = "text-white mt-1 col-1 fa fa-bell"></i>
-            <text class="d-none d-xl-block col-1 text-white">Notifications</text>
-        </div>
-        <div class = "border wd-height-30 row">
-            <i class = "text-white mt-1 col-1 fa fa-envelope"></i>
-            <text class="d-none d-xl-block col-1 text-white">Messages</text>
-        </div>
-        <div class = "border wd-height-30 row">
-            <i class = "text-white mt-1 col-1 fa fa-bookmark"></i>
-            <text class="d-none d-xl-block col-1 text-white">Bookmarks</text>
-        </div>
-        <div class = "border wd-height-30 row">
-            <i class = "text-white mt-1 col-1 fa fa-list"></i>
-            <text class="d-none d-xl-block col-1 text-white">Lists</text>
-        </div>
-        <div class = "border wd-height-30 row">
-            <i class = "text-white mt-1 col-1 fa fa-user"></i>
-            <text class="d-none d-xl-block col-1 text-white">Profile</text>
-        </div>
-        <div class = "border wd-height-30 row">
-            <i class = "text-white mt-1 col-1 fa fa-comment"></i>
-            <text class="d-none d-xl-block col-1 text-white">More</text>
-        </div>
-        <div class = "row wd-height-30 mt-2 ">
-            <button class="rounded-pill bg-primary text-white">Tweet</button>
-        </div>
-    </div>
-    <div class="ms-3 me-3 border-0 col-6 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
-        <div class="display-flex">
-        <div class = "Icon-inside" >
-            <input class = "rounded-pill mb-3 wd-search " placeholder="Search Tuiter">
-            <i id = "search_icon" class = "fa fa-search" aria-hidden="true"></i>
-        </div>
-        <i class = "fa fa-cog fa-2x" style = "color: blue"></i>
-        </div>
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link bg-primary text-white" href="for-you.html">For You</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="trending.html">Trending</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="news.html">News</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="sports.html">Sports</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="entertainment.html" tabindex="-1">Entertainment</a>
-            </li>
-        </ul>
-        <div class = "Icon-inside" >
-            <img class="wd-img-width-full mt-2" src="spacex.jpeg">
-            <a class="wd-font-bold wd-color-darkgray wd-text-decoration">SpaceX's Starship</a>
-        </div>
-        <div class = "border display-flex">
-            <div class="col-10 ms-2">
-                <a class="wd-color-darkgray wd-text-decoration">Web Development</a>
-                <br>
-                <a class="text-white wd-font-bold wd-text-decoration">React.JS ☑</a>
-                <a class = "wd-color-darkgray wd-text-decoration"> - 2h</a>
-                <br>
-                <a class="text-white wd-font-bold wd-text-decoration">React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</a>
-            </div>
-            <img class="col-2 wd-img-width-20p" src="reactjs.png">
-        </div>
-        <div class = "border display-flex">
-            <div class="col-10 ms-2">
-                <a class="text-white wd-font-bold wd-text-decoration">Javascript ☑️</a>
-                <a class = "wd-color-darkgray wd-text-decoration"> - 1 day</a>
-                <br>
-                <a class="text-white wd-font-bold wd-text-decoration">Javascript is programming language that can run on browsers as well as desktops </a>
-
-            </div>
-            <img class="col-2 wd-img-width-20p" src="javascript.png">
-        </div>
-        <div class = "border display-flex">
-            <div class="col-10 ms-2">
-                <a class="wd-color-darkgray wd-text-decoration">Web Development</a>
-                <br>
-                <a class = "text-white wd-text-decoration">☑ </a>
-                    <a> - last week</a>
-                <br>
-                <a class="text-white wd-font-bold wd-text-decoration">jQuery</a>
-
-            </div>
-            <img class="col-2 wd-img-width-20p" src="jquery.png">
-        </div>
-        <div class = "border display-flex">
-            <div class="col-10 ms-2">
-                <a class="wd-color-darkgray wd-text-decoration">Web Development</a>
-                <br>
-                <a class="text-white wd-font-bold wd-text-decoration">NodeJS☑️</a>
-                <a class = "wd-color-darkgray wd-text-decoration"> - last month</a>
-
-            </div>
-            <img class="col-2 wd-img-width-20p" src="js.png">
-        </div>
-    </div>
-    <div class="text-white border d-none d-lg-block col-lg-3 col-xl-3 col-xxl-3">
-        <div class="border row wd-font-bold text-white">
-            Who to follow
-        </div>
-        <div class="border row">
-            <div class = "col-2">
-                <i class = "fab fa-java fa-2x"></i>
-            </div>
-            <div class = "col-7">
-                <a class="text-white wd-font-bold wd-text-black wd-text-decoration">Java ☑️</a>
-                <br>
-                @Java
-            </div>
-            <div class = "col-3">
-                <button class="rounded-pill bg-primary text-white mt-2 mb-2">Follow</button>
-            </div>
-        </div>
-        <div class="border row">
-            <div class = "col-2">
-                <img class="rounded-pill wd-img-width" src="relativity.png">
-            </div>
-            <div class = "col-7">
-                <a class="text-white wd-font-bold wd-text-black wd-text-decoration">Relativity Space ☑️</a>
-                <br>
-                @relativityspace
-            </div>
-            <div class = "col-3">
-                <button class="rounded-pill bg-primary text-white mt-2 mb-2">Follow</button>
-            </div>
-        </div>
-        <div class="border row">
-            <div class = "col-2">
-                <img class="rounded-pill wd-img-width" src="virgin.png">
-            </div>
-            <div class = "col-7">
-                <a class="text-white wd-font-bold wd-text-black wd-text-decoration">Virgin Galactic ☑️</a>
-                <br>
-                @virgingalactic
-            </div>
-            <div class = "col-3">
-                <button class="rounded-pill bg-primary text-white mt-2 mb-2">Follow</button>
-            </div>
-        </div>
-        <div class="border row">
-            <div class = "col-2">
-                <img class="rounded-pill wd-img-width" src="nasa.png">
-            </div>
-            <div class = "col-7">
-                <a class="text-white wd-font-bold wd-text-black wd-text-decoration">NASA ☑️</a>
-                <br>
-                @NASA
-            </div>
-            <div class = "col-3">
-                <button class="rounded-pill bg-primary text-white mt-2 mb-2">Follow</button>
-            </div>
-        </div>
-        <div class="border row">
-            <div class = "col-2">
-                <img class="rounded-pill wd-img-width" src="tesla.png">
-            </div>
-            <div class = "col-7">
-                <a class="text-white wd-font-bold wd-text-black wd-text-decoration">Tesla ☑️</a>
-                <br>
-                @Tesla
-            </div>
-            <div class = "col-3">
-                <button class="rounded-pill bg-primary text-white mt-2 mb-2">Follow</button>
-            </div>
-        </div>
-
-    </div>
-</div>
-
+<div class="container" id="wd-explore"></div>
+<script src="index.js" type="module"></script>
 
 </body>
 </html>
+

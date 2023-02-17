@@ -1,0 +1,27 @@
+export default [
+   {
+       head:'../../images/head1.jpeg',
+       userName: 'Elon Mush',
+       handle:"elonmusk",
+       time: '23h',
+       topic: 'Amazing show about @Inspiration4x misiion!',
+       image: '../../images/musk.jpeg',
+       title:'Countdon: Inspiration4 Mission to Space I Netflix Official Site',
+       content:"From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space -netflix.com.",
+       comment:"4.2k",
+       forward:'3.5k',
+       like:'37.5k',
+   },
+   {
+          head:'../../images/head2.jpeg',
+          userName: 'New York Post',
+          handle:"nypost",
+          time: '23h',
+          topic: 'Grimes seen reading Kari Marx following split with worlds richest man Elon Musk tun.ai/nx2Gfaq',
+          image: '../../images/book.jpeg',
+          title:'',
+          content:'',
+          comment:"965",
+          forward:'2.4k',
+          like:'4k',
+      },];

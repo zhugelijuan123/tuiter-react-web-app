@@ -29,7 +29,7 @@ const ExploreComponent = () => {
                        </li>
                    </ul>
            <div class = "Icon-inside" >
-                       <img class="wd-img-width-full mt-2" src="spacex.jpeg">
+                       <img class="wd-img-width-full mt-2" src="../../images/spacex.jpeg">
                        <a class="wd-font-bold wd-color-darkgray wd-text-decoration">SpaceX's Starship</a>
                    </div>
            <div class="row mt-2">
