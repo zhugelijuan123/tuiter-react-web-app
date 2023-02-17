@@ -13,7 +13,7 @@ font-weight:bold;
 color:black;
 }
 .wd-search {
-width:750px;
+width:600px;
 }
 .rounded-pill {
     border-radius: 50%;
@@ -22,9 +22,18 @@ width:750px;
 .wd-img-width {
 width:40px;
 }
+.wd-img-height {
+height:40px;
+}
+
 
 .wd-img-width-20p {
 width:15%;
+}
+
+.wd-img-width-12p {
+width:12%;
+height:12%;
 }
 
 .wd-img-width-full {
@@ -45,9 +54,9 @@ position:relative;
 .Icon-inside a {
       position:absolute;
       left:0;
-      top:90%;
+      top:85%;
       padding:6px 6px;
-      font-size:30px;
+      font-size:35px;
      }
 
 .wd-height-30{
@@ -66,6 +75,12 @@ input::placeholder {
 .wd-border-left-solid-darkgray {
    border-left-style: solid;
    border-left-color:rgb(47, 51, 54);
+}
+
+.wd-border-solid-darkgray {
+   border-top-style: solid;
+   border-top-width:0.1px;
+   border-top-color:rgba(184, 180, 180, 0.05);
 }
 
 .wd-border-right-solid-darkgray {
@@ -94,6 +109,10 @@ input::placeholder {
     border-radius: 50px;
 }
 
+.wd_rounded_pic {
+border-radius: 10%;
+}
+
 .wd-grid-col-90-page {
     width:85%;
     height: 30px;
@@ -115,6 +134,14 @@ input::placeholder {
     background-color: darkgray;
 }
 
+.margin_start {
+margin-left:20px;
+}
+
+.wd-backgroundcolor-lightdark {
+    background-color: rgb(47, 51, 54);
+}
+
 .wd-backgroundcolor-black {
     background-color: black;
 }
@@ -127,6 +154,10 @@ input::placeholder {
 
 .wd-color-white {
     color: white;
+}
+
+.wd-backgroundcolor-white {
+    background-color: white;
 }
 
 
