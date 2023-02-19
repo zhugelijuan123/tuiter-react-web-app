@@ -13,7 +13,7 @@ return (`
         <img class="wd-border-all-darkgray ms-2 mt-3 wd_rounded_pic wd-img-width-350px" src=${post.image}>
         <div class="wd-border-all-darkgray">
             <a class="text-white wd-font-bold wd-text-decoration"> ${post.title}</a>
-            <p class = "wd-color-darkgray wd-text-decoration"> - ${post.content}</p>
+            <p class = "wd-color-darkgray wd-text-decoration">${post.content}</p>
 
         </div>
         <div class = "display-flex">
