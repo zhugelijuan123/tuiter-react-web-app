@@ -1,24 +1,34 @@
 import React from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import {Link} from "react-router-dom";
+import {useLocation} from "react-router";
+import "./index.css"
 
-const NavigationSidebar = (
- {
-   active = 'home'
- }
-) => {
+const NavigationSidebar = () => {
+ const {pathname} = useLocation();
+ const paths = pathname.split('/')
+ const active = paths[2];
  return (
    <div className="list-group">
      <i className = "list-group-item bi bi-twitter"></i>
 
+     <Link to="/tuiter/home" className="wd-text-decoration">
      <div className={`list-group-item ${active === 'home'?'active':''}`}>
      <i className = "mt-1 col-1 bi bi-house"></i>
      <text >&nbsp;&nbsp; Home</text>
      </div>
+     </Link>
 
+     <Link to="/tuiter/explore"  className="wd-text-decoration">
      <div className={`list-group-item ${active === 'explore'?'active':''}`}>
           <i className = "mt-1 col-1 bi bi-hash"></i>
           <text >&nbsp;&nbsp; Explore</text>
      </div>
+     </Link>
+
+     <Link to="/" className="list-group-item">
+            Labs
+     </Link>
 
      <div className={`list-group-item ${active === 'notifications'?'active':''}`}>
                <i className = "mt-1 col-1 bi bi-bell"></i>
