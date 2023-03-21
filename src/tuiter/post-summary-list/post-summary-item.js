@@ -7,7 +7,8 @@ const PostSummaryItem = (
      "time": "2h",
      "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
      "image": "tesla.png",
-     "tweets":"123k"
+     "tweets":"123k",
+     "tuit":"empty"
    }
  }
 ) => {

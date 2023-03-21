@@ -13,7 +13,7 @@ const NavigationSidebar = () => {
      <i className = "list-group-item bi bi-twitter"></i>
 
      <Link to="/tuiter/home" className="wd-text-decoration">
-     <div className={`list-group-item ${active === 'home'?'active':''}`}>
+     <div className={`list-group-item ${active === 'home' | active === '' ?'active':''}`}>
      <i className = "mt-1 col-1 bi bi-house"></i>
      <text >&nbsp;&nbsp; Home</text>
      </div>
@@ -50,10 +50,12 @@ const NavigationSidebar = () => {
                     <text >&nbsp;&nbsp; Lists</text>
                </div>
 
+     <Link to="/tuiter/profile"  className="wd-text-decoration">
      <div className={`list-group-item ${active === 'profile'?'active':''}`}>
                     <i className = "mt-1 col-1 bi bi-person"></i>
                     <text >&nbsp;&nbsp; Profile</text>
                </div>
+     </Link>
 
      <div className={`list-group-item ${active === 'more'?'active':''}`}>
                     <i className = "mt-1 col-1 bi bi-chat-square-dots-fill"></i>
