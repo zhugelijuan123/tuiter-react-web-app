@@ -4,6 +4,7 @@ import HomeTuitItem
   from "./home-tuit-item";
 import {useDispatch, useSelector} from "react-redux";
 import WhatsHappening from "./whats-happening";
+import TuitStatItem from "./tuit-stat-item";
 import {findTuitsThunk}
   from "../../services/tuits-thunks";
 
@@ -31,9 +32,17 @@ const HomeNewComponent = () => {
          }
          { !loading &&
            tuits.map(post =>
+           <div>
+
              <HomeTuitItem
-               key={post._id} post={post}/> )
+                            key={post._id} post={post}/>
+             <TuitStatItem
+                                         key={post._id} post={post}/>
+
+                           </div>
+             )
          }
+
        </ul>
    </>
  );

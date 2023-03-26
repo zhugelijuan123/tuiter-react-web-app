@@ -162,6 +162,11 @@ color:rgb(184, 180, 180);
      border-color:rgb(184, 180, 180);
 }
 
+.wd-border-bottom-0{
+border-bottom-width:0;
+border-bottom-style: none;
+}
+
 .wd-border-bottom-solid-blue {
    border-bottom-style: solid;
    border-bottom-width:1px;
