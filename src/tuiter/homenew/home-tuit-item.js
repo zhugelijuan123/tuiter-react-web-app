@@ -1,7 +1,7 @@
 import React from "react";
 import {useDispatch} from "react-redux";
 import TuitStatItem from "./tuit-stat-item";
-import {deleteTuit} from "../tuits/tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 
 
@@ -25,8 +25,11 @@ const HomeTuitItem = (
 ) => {
 const dispatch = useDispatch();
 const deleteTuitHandler = (id) => {
-  dispatch(deleteTuit(id));
-}
+   dispatch(deleteTuitThunk(id));
+ }
+ console.log("image")
+ console.log(post.image)
+
  return(
   <li className="list-group-item">
    <div class = "mt-2 display-flex">

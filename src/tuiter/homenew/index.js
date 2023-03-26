@@ -1,20 +1,36 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "../home/index.css";
 import HomeTuitItem
   from "./home-tuit-item";
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import WhatsHappening from "./whats-happening";
+import {findTuitsThunk}
+  from "../../services/tuits-thunks";
+
 
 
 const HomeNewComponent = () => {
- const homepostsArray = useSelector(state => state.tuits)
+ const {tuits, loading} = useSelector(state => state.tuitsData)
+ console.log(loading)
+ console.log(tuits)
+ const dispatch = useDispatch();
+ useEffect(() => {
+    dispatch(findTuitsThunk())
+ }, [])
+
  return(
    <>
        <h4>Home</h4>
        <WhatsHappening/>
        <ul className="list-group">
          {
-           homepostsArray.map(post =>
+              loading &&
+              <li className="list-group-item">
+                Loading...
+              </li>
+         }
+         { !loading &&
+           tuits.map(post =>
              <HomeTuitItem
                key={post._id} post={post}/> )
          }
