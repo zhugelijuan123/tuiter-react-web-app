@@ -12,8 +12,7 @@ import {findTuitsThunk}
 
 const HomeNewComponent = () => {
  const {tuits, loading} = useSelector(state => state.tuitsData)
- console.log(loading)
- console.log(tuits)
+
  const dispatch = useDispatch();
  useEffect(() => {
     dispatch(findTuitsThunk())
